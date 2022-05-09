@@ -1,0 +1,111 @@
+body {
+    background-image: linear-gradient(to right, #7808f0, #06bdf5);
+}
+
+#display {
+    border: none;
+    background: white;
+    border-radius: 40px;
+    width: 245;
+    font-size: 20;
+    font-family: sans-serif;
+    font-weight: 300;
+    height: 60;
+    margin: auto;
+    border: 2px solid white;
+    color: black;
+    padding: 20px;
+    font-size: 200%;
+}
+
+.btrDesign {
+    width: 55;
+    height: 55;
+    padding-top: -1;
+    font-family: sans-serif;
+    font-size: 20;
+    font-weight: 300;
+    border-radius: 40px;
+    margin: 1.5;
+    font-size: 150%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.oprDesign {
+    width: 55;
+    height: 55;
+    padding-top: -1;
+    font-family: sans-serif;
+    font-size: 20;
+    font-weight: 300;
+    border-radius: 40px;
+    margin: 1.5;
+    transition: 00.25px;
+    cursor: pointer;
+    font-size: 150%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.oprDesign:hover {
+    background: #00d9ff;
+}
+
+.btrDesign:hover {
+    background: orange;
+}
+
+#enter:hover {
+    background: greenyellow;
+}
+
+#back:hover {
+    background: red;
+}
+
+#tabel {
+    text-align: center;
+    padding: 30px;
+    position: fixed;
+    top: 100px;
+    right: 100px;
+}
+
+td {
+    padding-top: 20px;
+}
+
+#enter {
+    width: 55;
+    height: 55;
+    padding-top: -1;
+    font-family: sans-serif;
+    font-size: 20;
+    font-weight: 300;
+    border-radius: 40px;
+    margin: 1.5;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 150%;
+}
+
+.calci {
+    text-align: right;
+}
+
+#heading {
+    position: fixed;
+    left: 70px;
+    top: 200px;
+}
+
+#heading h1 {
+    font-size: 70px;
+}

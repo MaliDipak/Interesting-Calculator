@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css" type="text/css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div id="heading">
+        <h1>Interesting Calculator <br>By Dipak Chandrakant Mali</h1>
+    </div>
+    <div>
+        <form action="index.html" name="form1" class="calci" method="post">
+            <table id="tabel">
+                <tr>
+                    <td id="screen" colspan="4"><input type="text" name="answer" id="display" placeholder="Enter"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="btrDesign" value="C" onclick="form1.answer.value=''"></td>
+                    <td><input type="button" class="btrDesign" id="back" value="&#8592"
+                            onclick=form1.answer.value=form1.answer.value.substring(0,form1.answer.value.length*1-1)>
+                    </td>
+                    <td><input type="button" class="btrDesign" value="00" onclick="form1.answer.value+='00'"></td>
+                    <td><input type="button" class="oprDesign" value="/" onclick="form1.answer.value+='/'"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="btrDesign" value="7" onclick="form1.answer.value+='7'"></td>
+                    <td><input type="button" class="btrDesign" value="8" onclick="form1.answer.value+='8'"></td>
+                    <td><input type="button" class="btrDesign" value="9" onclick="form1.answer.value+='9'"></td>
+                    <td><input type="button" class="oprDesign" value="*" onclick="form1.answer.value+='*'"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="btrDesign" value="4" onclick="form1.answer.value+='4'"></td>
+                    <td><input type="button" class="btrDesign" value="5" onclick="form1.answer.value+='5'"></td>
+                    <td><input type="button" class="btrDesign" value="6" onclick="form1.answer.value+='6'"></td>
+                    <td><input type="button" class="oprDesign" value="-" onclick="form1.answer.value+='-'"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" class="btrDesign" value="1" onclick="form1.answer.value+='1'"></td>
+                    <td><input type="button" class="btrDesign" value="2" onclick="form1.answer.value+='2'"></td>
+                    <td><input type="button" class="btrDesign" value="3" onclick="form1.answer.value+='3'"></td>
+                    <td><input type="button" class="oprDesign" value="+" onclick="form1.answer.value+='+'"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="0" onclick="form1.answer.value+='0'" class="btrDesign"></td>
+                    <td><input type="button" class="btrDesign" value="." onclick="form1.answer.value+='.'"></td>
+                    <td colspan="2"><input type="button" value="=" onclick="form1.answer.value=eval(form1.answer.value)"
+                            id="enter"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>
